@@ -1,0 +1,15 @@
+/*Estilos propios de la caja cont (la que tiene todo el contenido de las opciones*/
+
+/*Título de las opciones*/
+.headCont{
+    font-size: xx-large;
+    color: rgb(6, 50, 6);
+}
+
+/*Separador*/
+.cont hr{
+    border: none;
+    height: 2px;                /*Sería el grosor*/
+    background-color: gray; 
+    margin: 20px;   
+}
