@@ -13,3 +13,90 @@
     background-color: gray; 
     margin: 20px;   
 }
+
+.contTextoMain {
+    display: flex;
+    width: 75vw;
+    margin: 0 auto;             /*Para que se centre*/
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contTexto {
+    width: 75vw;
+    margin: 0 auto;             /*Para que se centre*/
+    justify-content: left;
+    flex-direction: column;
+}
+
+/*Si quiero que ocupe menos espacio*/
+.contTexto.small{
+    width: 50vw;
+}
+
+.contBio {
+    display: flex;   
+    justify-content: center;
+}
+
+.contFotos {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fotoBio{
+    max-width: 250px;  
+    max-height: 250px;
+}
+
+figcaption {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #333;
+}
+
+.textoPrincipal {
+    line-height: 1.6;
+    color: #333;
+    font-family: "Segoe UI", Roboto, sans-serif;
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+/*Para usarlo como subtítulo*/
+.textoPrincipal.sub {
+    font-weight: bolder;
+}
+
+/*Para poner clear en algún p, para ignorar la flotante anterior a esta*/
+.textoPrincipal.clear {
+    clear: both;
+}
+
+/*Para las listas ul que no quiero que tengan un espacio grande*/
+.textoPrincipal.ul{
+    margin-bottom: 0rem;
+}
+
+/*Para centrar el texto en vez de justificar*/
+.textoPrincipal.centr{
+    text-align: center;
+}
+
+/*Imagen flotante*/
+.imgFlotante {       
+    width: 250px;           
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 8px;     
+}
+
+.imgFlotante.der{
+    float: right;  
+}
+
+.imgFlotante.izq{
+    float: left;  
+}
