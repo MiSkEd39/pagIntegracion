@@ -78,6 +78,11 @@ figcaption {
 /*Para las listas ul que no quiero que tengan un espacio grande*/
 .textoPrincipal.ul{
     margin-bottom: 0rem;
+    text-align: left;
+}
+
+.textoPrincipal.textDer{
+    text-align: left;
 }
 
 /*Para centrar el texto en vez de justificar*/
@@ -99,4 +104,15 @@ figcaption {
 
 .imgFlotante.izq{
     float: left;  
+}
+
+.imgFlotante.big{
+    width: 400px;
+}
+
+/*Para las tablas*/
+.tablaPDS{
+    margin: 0 auto; 
+    border-collapse: separate;
+    border-spacing: 150px 20px; 
 }
